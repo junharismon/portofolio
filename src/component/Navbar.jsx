@@ -30,7 +30,7 @@ export function Navbar() {
             </li>
           </ul>
         </div>
-        <a href="https://drive.google.com/file/d/1FiI-beFDuTfzi-_zqTRNLg5--N7P9c8o/view?usp=share_link" target="blank">
+        <a href="https://drive.google.com/file/d/1ecY4-ljHT_kk5HcOPoVmLqnMmJv6R8mz/view?usp=sharing" target="blank">
           <button className="button n-button">Download CV</button>
         </a>
       </div>

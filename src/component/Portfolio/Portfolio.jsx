@@ -1,12 +1,7 @@
-import { useContext } from 'react';
 import { useSelector } from 'react-redux';
 import './Portfolio.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import HOC from '../../img/hoc.png';
-import Spotifyy from '../../img/Spotifyy.png';
-import JHN from '../../img/jhntimes.png';
-import CMS from '../../img/cms.png';
 const Portfolio = () => {
   const port = useSelector((state) => {
     console.log(state);
@@ -22,7 +17,7 @@ const Portfolio = () => {
         {port.portofolio.map((el) => {
           return (
             <SwiperSlide>
-              <a href="https://spotify-clone-bcbf6.web.app/search" target="blank" style={{ textDecoration: 'none' }}>
+              <a href={el.url} target="blank" style={{ textDecoration: 'none' }}>
                 <img src={el.img} alt="" />
                 <div className="text-content">
                   <h3>{el.title}</h3>

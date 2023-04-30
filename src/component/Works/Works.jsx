@@ -35,7 +35,7 @@ const Works = () => {
             <br />
             also in React and Vue for Front-End.
           </spane>
-          <a href="https://drive.google.com/file/d/1FiI-beFDuTfzi-_zqTRNLg5--N7P9c8o/view?usp=share_link" target="blank">
+          <a href="https://drive.google.com/file/d/1ecY4-ljHT_kk5HcOPoVmLqnMmJv6R8mz/view?usp=sharing" target="blank">
             <button className="button s-button">Download CV </button>
           </a>
           <div className="blur s-blur1" style={{ background: '#ABF1FF94' }}></div>
